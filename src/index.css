@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap") * {
+  font-family: Ubuntu;
+  margin: 0px;
+  padding: 0px;
+}
+.faqs {
+  background-color: orange;
+  padding: 5px;
+  margin: 20px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.answer {
+  font-size: 1.5em;
+  font-style: italic;
+  color: rgb(3, 3, 3);
+}
+.question {
+  text-align: center;
+}
+.icon {
+  position: absolute;
+  right: 150px;
+  top: 8px;
+
+  font-size: 1.4em;
+  font-weight: bold;
+  color: red;
+}
+.number {
+  font-size: bold;
+  color: rgba(18, 15, 15, 0.957);
+
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+.display {
+  border-top: 5px solid red;
+  /* border-left: 2px solid magenta; */
+}
+.new {
+  color: white;
+}
